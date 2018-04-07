@@ -10,8 +10,8 @@ namespace VySeconddApp2
     {
         static void Main(string[] args)
         {
-			short x  = 1000;
-			string str = Convert.ToString(x);			
+			Console.WriteLine("45:");
+			string x = Console.ReadLine();			
 			Console.WriteLine(x);
 			Console.ReadKey();
         }
