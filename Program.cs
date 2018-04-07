@@ -10,9 +10,11 @@ namespace VySeconddApp2
     {
         static void Main(string[] args)
         {
-			Console.WriteLine("45:");
-			string x = Console.ReadLine();			
-			Console.WriteLine(x);
+			Console.WriteLine("Введите число:");
+			string x = Console.ReadLine();
+			int a = Convert.ToInt32(x);
+			a = a * a;
+			Console.WriteLine(a);
 			Console.ReadKey();
         }
     }
