@@ -10,11 +10,17 @@ namespace VySeconddApp2
     {
         static void Main(string[] args)
         {
-			Console.WriteLine("Введите число:");
-			string x = Console.ReadLine();
-			int a = Convert.ToInt32(x);
-			a = a * a;
-			Console.WriteLine(a);
+			Console.WriteLine("46");
+			string text = Console.ReadLine();
+			int years = Convert.ToInt32(text);
+			if (years > 16)
+			{
+				Console.WriteLine("Tooooo old");
+			}
+			else
+			{
+				Console.WriteLine("Тесак уже выезжал за тобой");
+			}
 			Console.ReadKey();
         }
     }
