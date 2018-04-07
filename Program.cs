@@ -9,17 +9,14 @@ namespace VySeconddApp2
     class Program
     {
         static void Main(string[] args)
-        {
-			Console.WriteLine("46");
-			string text = Console.ReadLine();
-			int years = Convert.ToInt32(text);
-			if (years > 16)
+        {	
+			if("депутат" == "человек")
 			{
-				Console.WriteLine("Tooooo old");
+				Console.WriteLine("Какой-то код");
 			}
 			else
 			{
-				Console.WriteLine("Тесак уже выезжал за тобой");
+				Console.WriteLine("Другой код");
 			}
 			Console.ReadKey();
         }
