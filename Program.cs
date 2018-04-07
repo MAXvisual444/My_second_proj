@@ -9,15 +9,16 @@ namespace VySeconddApp2
     class Program
     {
         static void Main(string[] args)
-        {	
-			if("депутат" == "человек")
+        {
+			Console.WriteLine("040273");
+			string text = Console.ReadLine();
+			int x = Convert.ToInt32(text);
+			if(x > 2017)
 			{
-				Console.WriteLine("Какой-то код");
+				Console.WriteLine("Ты либо из будущего, либо балобол.");
+				Console.WriteLine("Что то я не вижу рядом машину времени...");
 			}
-			else
-			{
-				Console.WriteLine("Другой код");
-			}
+		
 			Console.ReadKey();
         }
     }
