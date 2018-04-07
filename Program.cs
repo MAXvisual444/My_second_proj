@@ -13,14 +13,12 @@ namespace VySeconddApp2
 			Console.WriteLine("040273");
 			string text = Console.ReadLine();
 			int x = Convert.ToInt32(text);
-			if (x > 2017)
+
+			bool result = x > 2017;
+
+			if (result)
 			{
-				Console.WriteLine("Ты либо из будущего, либо балобол.");
-				Console.WriteLine("Что то я не вижу рядом машину времени...");
-			}
-			else if (x > 2010)
-			{
-				Console.WriteLine("Ути пути какой малыш");
+				Console.WriteLine("Магия");
 			}
 		
 			Console.ReadKey();
