@@ -14,13 +14,8 @@ namespace VySeconddApp2
 			string text = Console.ReadLine();
 			int x = Convert.ToInt32(text);
 
-			bool result = x > 2017;
-
-			if (result)
-			{
-				Console.WriteLine("Магия");
-			}
-		
+			string result = x > 100 ? "больше 100" : "меньше 100";
+			Console.WriteLine("Результат" + result);
 			Console.ReadKey();
         }
     }
