@@ -25,9 +25,11 @@ namespace VySeconddApp2
 				case 3:
 					Console.WriteLine("Число 3");
 					break;
+				default:
+					Console.WriteLine("Какое-то x3 какое число");
+					break;
 			}
-
-			Console.WriteLine("Всё");
+			Console.WriteLine("всё");
 			Console.ReadKey();
         }
     }
