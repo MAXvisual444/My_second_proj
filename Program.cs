@@ -14,8 +14,20 @@ namespace VySeconddApp2
 			string text = Console.ReadLine();
 			int x = Convert.ToInt32(text);
 
-			string result = x > 100 ? "больше 100" : "меньше 100";
-			Console.WriteLine("Результат" + result);
+			switch (x)
+			{
+				case 1:
+					Console.WriteLine("Число 1");
+					break;
+				case 2:
+					Console.WriteLine("Число 2");
+					break;
+				case 3:
+					Console.WriteLine("Число 3");
+					break;
+			}
+
+			Console.WriteLine("Всё");
 			Console.ReadKey();
         }
     }
